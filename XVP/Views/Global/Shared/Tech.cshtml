@@ -1,0 +1,141 @@
+﻿
+@{
+    ViewBag.Title = "Tech";
+}
+
+<h2>Tech</h2>
+The research conducted on Microsoft Azure and multi-tenancy
+produced a multitude of answers to this question. Just as multi-tenancy
+can be implemented in variable degrees, so too can different technologies
+be use to construct a multi-tenant system. The following table summizes the different
+ones chosen for our architecture and that have been implemented in this prototype
+
+<table class="table table-hover table-striped">
+    <thead>
+        <th>Type</th>
+        <th>Service</th>
+        <th>Use</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Cloud
+                Services
+            </td>
+            <td>
+                Azure Web Role*
+            </td>
+            <td>
+                Web Server and application front
+                end using ASP.NET MVC
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                Azure Worker
+                Role*
+            </td>
+            <td>
+                Application hosting, scheduled
+                services and back-end processing
+            </td>
+        </tr>
+        <tr>
+            <td>Cache</td>
+            <td>
+                Azure Redis
+                Cache
+            </td>
+            <td>Shared key-value in memory store</td>
+        </tr>
+        <tr>
+            <td>
+                Load Balancer
+            </td>
+            <td>
+                Azure Load
+                Balancer
+            </td>
+            <td>
+                TCP/UDP traffic management between
+                service instances
+            </td>
+        </tr>
+        <tr>
+            <td>Storage </td>
+            <td>
+                Azure Document
+                DB
+            </td>
+            <td>
+                Schema free, NoSQL, JSON and
+                JavaScript document store
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Azure Search</td>
+            <td>
+                Queryable index store used for
+                searches
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Azure SQL </td>
+            <td>
+                Relational database used for entities
+                that do not fit DocumentDb or
+                Search
+            </td>
+        </tr>
+        <tr>
+            <td>Hosting</td>
+            <td>
+                Azure Affinity
+                Groups
+            </td>
+            <td>
+                Co-locate services within a single
+                Azure region
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                Azure Availability
+                Sets
+            </td>
+            <td>
+                Provides high availability SLA
+                and ensures that service instances
+                are physically hosted on different
+                servers in the datacenter. Also ensures
+                updates will only affect one
+                service instance at a time
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Azure Region </td>
+            <td>
+                Used to specify specific datacenter
+                for hosting our services
+            </td>
+        </tr>
+        <tr>
+            <td>Messaging</td>
+            <td>
+                Azure Storage
+                Queues
+            </td>
+            <td>
+                Queue based persistent messaging
+                between Web and Worker Roles
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+* Due to the increased costs of hosting web and worker roles compared to Websites and Webjobs. This prototype uses the latter instead. The difference between the approaches are negligible for the purpose of the prototype

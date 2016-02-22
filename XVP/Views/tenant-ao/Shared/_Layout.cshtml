@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XV-Platform Prototype</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <meta name="description" content="Aubrey Oosthuizen Masters thesis Prototype example page" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/Tenants/tenant-ao/Site.css" rel="stylesheet"/>
+   @Scripts.Render("~/bundles/jquery")
+</head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img src="~/Content/xvplogo.png" height="40"/> </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Tenants", "Index", "Tenant")</li>
+                        <li>@Html.ActionLink("SearchDB Seed", "InitMedia", "Search")</li>
+                        <li>@Html.ActionLink("DocumentDB Seed", "InitDocumentDb", "FeatureTest")</li>
+                        <li>@Html.ActionLink("Flush Cache", "Flush", "Cache")</li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Aubrey Oosthuizen - Masters Thesis Project Prototype</p>
+            </footer>
+        </div>
+        <div class="modal-backdrop">
+            <img src="~/Content/Img/spinner.gif" id="loading-indicator" alt=""/>
+        </div>
+  
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+        <script type="text/javascript" src="~/Scripts/market-ajax.js"></script>
+    </body>
+</html>

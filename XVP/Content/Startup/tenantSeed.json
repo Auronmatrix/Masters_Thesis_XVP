@@ -1,0 +1,20 @@
+﻿[
+    {
+        "TenantId": "1",
+        "Name": "ao",
+        "FolderName": "tenant-ao",
+        "HostName": "ao.dev.fithesis.info"
+    },
+    {
+        "TenantId": 2,
+        "Name": "xv",
+        "FolderName": "tenant-xv",
+        "HostName": "xv.dev.fithesis.info"
+    },
+    {
+        "TenantId": 3,
+        "Name": "ex",
+        "FolderName": "tenant-ex",
+        "HostName": "ex.dev.fithesis.info"
+    }
+]

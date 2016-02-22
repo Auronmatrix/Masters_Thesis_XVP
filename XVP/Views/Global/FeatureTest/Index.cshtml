@@ -1,0 +1,39 @@
+﻿@model IEnumerable<XVP.Domain.Models.Models.SeedModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+   
+    <div class="col-xs-2">
+        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+    </div>
+    <div class="col-xs-2">
+        @using (Ajax.BeginForm("InitDocumentDb", new AjaxOptions { UpdateTargetId = "itemList" }))
+        {
+            <div>
+                <input class="btn btn-info" type="submit" value="Initialize and seed" />
+            </div>
+        }
+    </div>
+    <div class="col-xs-2">
+        @using (Ajax.BeginForm("Index", new AjaxOptions { UpdateTargetId = "itemList" }))
+        {
+            <div>
+                <input class="btn btn-default" type="submit" value="Refresh" />
+            </div>
+        }
+    </div>
+    <br/>
+    <hr/>
+</p>
+<div id="itemList">
+    @{
+        Html.RenderPartial("_List", Model);
+    }
+</div>
+
+

@@ -1,0 +1,27 @@
+﻿@model XVP.Domain.Models.Models.Campaign
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .tenantBackground {
+       background-color: rgba(434, 123, 35, 0.98);
+    }
+</style>
+
+<h2>XV-Marketplace Prototype</h2>
+
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJy3nPJve-l6CY3GE-7WWA28YudaEjuOY">
+</script>
+
+<script type="text/javascript" src="~/Scripts/market-map.js"></script>
+
+
+<div class="container">
+    <div class="col-lg-1">
+        <div id="map-canvas" style="border-radius: 5px; height: 800px; width: 700px; margin: 0; padding: 0; color:black"></div>
+    </div>
+</div>
+
+@Html.Partial("_CampaignInfo")

@@ -1,0 +1,463 @@
+﻿[
+  {
+    "Id": "54c6a2141ee81a6cbbdfbc8f",
+    "Name": "velit",
+    "Publisher": "irure",
+    "Price": "3,572.44",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Ea culpa in dolor adipisicing eiusmod anim aliquip. Elit mollit eiusmod mollit sunt commodo ut quis cupidatat tempor tempor quis. Duis minim dolor laboris aliquip qui. Ex in anim nulla nisi eiusmod ad do cupidatat in aliquip esse. Eiusmod ipsum aute deserunt adipisicing eu irure adipisicing fugiat aliquip in. Aliquip elit cupidatat mollit consequat. Ad qui nostrud duis voluptate aliquip veniam velit commodo.\r\n",
+    "Location": {
+      "coordinates": [
+      16.56420933	, 49.35501523, 
+      ],
+     "Latitude": 49.35501523	,	 "Longitude ": 16.56420933	
+    },
+    "Type": "Audio Box",
+    "IsAvailable": false,
+    "Key": 0,
+    "Tenants": [
+      3, 1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214b864c1f336742674",
+    "Name": "dolor",
+    "Publisher": "incididunt",
+    "Price": "1,248.79",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Sunt esse sit elit elit incididunt aliquip laboris. Consectetur incididunt voluptate pariatur culpa Lorem mollit velit. Exercitation ut ea laborum laboris do aliqua fugiat sint commodo laboris ipsum excepteur aliquip qui. Ex elit ullamco voluptate veniam voluptate voluptate est esse consequat excepteur ipsum. Anim sit deserunt duis amet incididunt consequat. Esse nostrud cupidatat esse esse do sint culpa eiusmod nostrud velit elit voluptate. Tempor velit nisi voluptate sunt labore labore exercitation occaecat adipisicing magna aliquip id.\r\n",
+    "Location": {
+      "coordinates": [
+      16.56420933	, 49.35501523
+      ],
+      "Latitude": 49.11385793	,	 "Longitude ": 16.6903164
+    },
+    "Type": "Poster",
+    "IsAvailable": true,
+    "Key": 1,
+    "Tenants": [
+      3,
+     1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214c5adb3ea06516d6e",
+    "Name": "consequat",
+    "Publisher": "sint",
+    "Price": "1,902.72",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Nisi in quis pariatur consectetur id nisi. Pariatur duis non esse proident ex elit laborum culpa ad non Lorem ipsum veniam. Nostrud laboris ad proident ipsum aliquip nostrud fugiat. Aliquip amet labore elit id. Irure pariatur fugiat enim excepteur est et.\r\n",
+    "Location": {
+      "coordinates": [
+     16.6903164,  49.11385793
+      ],
+        "Latitude": 49.2936194	,	 "Longitude ": 16.7137742	
+    },
+    "Type": "Radio",
+    "IsAvailable": false,
+    "Key": 2,
+    "Tenants": [
+      3,
+      1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a2142d0471bdb4630108",
+    "Name": "quis",
+    "Publisher": "non",
+    "Price": "1,305.78",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Ex est ipsum labore laborum amet aliqua culpa in consequat exercitation. Est exercitation laboris do Lorem. Eu Lorem nulla incididunt id cillum do occaecat elit minim ex anim ex enim. Fugiat consectetur id ipsum amet officia veniam qui sint cillum do dolor nisi adipisicing dolor.\r\n",
+    "Location": {
+      "coordinates": [
+    16.7137742, 49.2936194	
+      ],
+      "Latitude": 49.1217692	,	 "Longitude ": 16.63263474
+    },
+    "Type": "Kino",
+    "IsAvailable": true,
+    "Key": 3,
+    "Tenants": [
+      3,
+      1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214b5e0f6dd0024257a",
+    "Name": "do",
+    "Publisher": "non",
+    "Price": "2,338.63",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Deserunt occaecat do laborum tempor adipisicing magna consectetur ex occaecat ipsum duis ea. Pariatur nulla laborum do dolor aliquip dolore dolor elit ex laboris reprehenderit labore. Ipsum reprehenderit consequat cillum duis proident ipsum. Lorem officia ex aliqua mollit et do proident reprehenderit mollit ea voluptate. Do do excepteur ullamco est nostrud non incididunt eu ad dolor magna pariatur amet laborum. Non nisi qui nostrud ullamco nulla non ea Lorem anim in sit. Ut eiusmod commodo ad reprehenderit ea non sit do aute ea.\r\n",
+    "Location": {
+      "coordinates": [
+    16.63263474,  49.1217692
+      ],
+       "Latitude": 49.36790286	,	 "Longitude ": 16.54976662
+    },
+    "Type": "Radio",
+    "IsAvailable": false,
+    "Key": 4,
+    "Tenants": [
+      3,
+      1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a2144e6528b3cc8f1faf",
+    "Name": "voluptate",
+    "Publisher": "ut",
+    "Price": "3,063.07",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Labore ex enim exercitation dolore esse nisi nulla et velit elit magna dolor eu. Cillum duis laboris aliquip culpa laboris quis culpa Lorem. Et incididunt non nulla pariatur aliquip proident irure consectetur commodo id officia deserunt. Officia minim aute esse tempor est non ea adipisicing ad voluptate qui veniam nostrud. Non cupidatat Lorem cillum consequat sunt do velit quis.\r\n",
+    "Location": {
+      "coordinates": [
+      16.54976662	,  49.36790286
+      ],
+       "Latitude": 49.18105943	,	 "Longitude ": 16.76764006
+    },
+    "Type": "Pamflet",
+    "IsAvailable": true,
+    "Key": 5,
+    "Tenants": [
+      3,
+     1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214f9f115ddac0b2861",
+    "Name": "ex",
+    "Publisher": "officia",
+    "Price": "3,678.72",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Qui deserunt laboris aliqua irure magna aliqua consequat sit aute ad excepteur officia ex. Eu in nulla ullamco duis esse adipisicing aliqua irure pariatur dolore magna. Ea voluptate minim dolor ad pariatur dolore aliquip labore ut sint consectetur id.\r\n",
+    "Location": {
+      "coordinates": [
+     16.76764006,  49.18105943
+      ],
+     "Latitude": 49.23097061	,	 "Longitude ": 16.45714494
+    },
+    "Type": "Audio Box",
+    "IsAvailable": true,
+    "Key": 6,
+    "Tenants": [
+      3,
+     1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a2146e6f911a23c46370",
+    "Name": "officia",
+    "Publisher": "tempor",
+    "Price": "2,334.55",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "In veniam excepteur consequat laboris magna ad culpa excepteur quis aliqua qui incididunt consectetur adipisicing. Labore nulla occaecat velit minim. Ex laboris occaecat enim nostrud incididunt id do exercitation. Anim eiusmod aliqua voluptate dolor elit officia mollit consequat aliqua. Sunt sit excepteur nisi Lorem nostrud ad nulla qui Lorem sunt. Minim esse ipsum veniam elit duis amet duis consequat nostrud fugiat deserunt ipsum et elit.\r\n",
+    "Location": {
+      "coordinates": [
+      16.45714494	, 49.23097061
+      ],
+      "Latitude": 49.19086166	,	 "Longitude ": 16.72791375
+    },
+    "Type": "Audio Box",
+    "IsAvailable": true,
+    "Key": 7,
+    "Tenants": [
+      3,
+      2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214f7b3584e0ca7a8a5",
+    "Name": "sint",
+    "Publisher": "veniam",
+    "Price": "1,103.20",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Labore id cupidatat mollit dolore cillum id proident Lorem ad nostrud excepteur minim. Ullamco eiusmod non nulla adipisicing minim reprehenderit aute. Adipisicing eu ad adipisicing ad non minim incididunt aliquip ipsum minim mollit. Eu anim minim occaecat labore ipsum nostrud cupidatat laborum aliqua. Incididunt ea tempor ipsum incididunt eiusmod et dolore amet officia laborum laborum.\r\n",
+    "Location": {
+      "coordinates": [
+       16.72791375,  49.19086166
+      ],
+       "Latitude": 49.02869861	,	 "Longitude ": 16.70525186
+    },
+    "Type": "Pamflet",
+    "IsAvailable": false,
+    "Key": 8,
+    "Tenants": [
+      3,
+     2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214d0d204f45ecc7de2",
+    "Name": "ut",
+    "Publisher": "magna",
+    "Price": "2,077.36",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Pariatur non sunt ipsum officia fugiat proident. Eu tempor aliqua elit irure laboris et nostrud non nisi ea non occaecat aliqua excepteur. Nisi labore commodo exercitation voluptate amet culpa cupidatat. Qui ullamco Lorem sit consectetur esse mollit ullamco ad est ipsum dolore irure veniam laboris. Elit duis ullamco reprehenderit dolor Lorem non nostrud ullamco quis elit proident. Voluptate ut consectetur irure aliqua sit sunt elit pariatur ullamco dolor officia.\r\n",
+    "Location": {
+      "coordinates": [
+      16.70525186, 49.02869861	
+      ],
+       "Latitude": 49.15449843	,	 "Longitude ": 16.72503738	
+    },
+    "Type": "Mobile Ad Car",
+    "IsAvailable": true,
+    "Key": 9,
+    "Tenants": [
+      3,
+     2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a2146608f353334193c4",
+    "Name": "nulla",
+    "Publisher": "cillum",
+    "Price": "3,812.94",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Enim ea ipsum ipsum sunt Lorem deserunt fugiat cupidatat dolore. Nulla et et commodo ex esse proident est eu commodo eu eu veniam elit ut. Voluptate Lorem pariatur mollit minim sit aliqua qui culpa. Ad enim aliquip irure non enim non duis officia mollit laborum dolore ipsum.\r\n",
+    "Location": {
+      "coordinates": [
+  16.72503738	,  49.15449843
+      ],
+      "Latitude": 49.33719079	,	 "Longitude ": 16.57748231
+    },
+    "Type": "Audio Box",
+    "IsAvailable": true,
+    "Key": 10,
+    "Tenants": [
+      3,
+      2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a2148184559675c0974c",
+    "Name": "excepteur",
+    "Publisher": "aliqua",
+    "Price": "3,663.85",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Dolore pariatur ea esse do dolore cupidatat nisi officia. In ut cillum enim qui officia consectetur dolore. Deserunt qui in velit consectetur labore. Occaecat adipisicing sint est proident magna incididunt ea Lorem minim eiusmod. Nisi elit occaecat esse commodo id est consequat dolor ad anim tempor. Officia ex nostrud duis non nostrud deserunt irure deserunt nulla.\r\n",
+    "Location": {
+      "coordinates": [
+      16.57748231, 49.33719079	
+      ],
+     "Latitude": 49.16736319	,	 "Longitude ": 16.87004795	
+    },
+    "Type": "Kino",
+    "IsAvailable": true,
+    "Key": 11,
+    "Tenants": [
+      3,
+     1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a21472709575f2f9e6ec",
+    "Name": "consectetur",
+    "Publisher": "proident",
+    "Price": "1,203.63",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Commodo adipisicing Lorem voluptate aute deserunt sint minim do enim non. Occaecat consectetur amet cillum deserunt nostrud amet eu elit eiusmod anim occaecat eiusmod proident occaecat. Ea sunt consequat incididunt tempor non ea fugiat elit voluptate dolore dolore esse aliquip ex. Nisi mollit Lorem dolor fugiat magna laboris id exercitation magna.\r\n",
+    "Location": {
+      "coordinates": [
+     16.87004795	, 49.16736319
+      ],
+     "Latitude": 49.10254393	,	 "Longitude ": 16.48661957
+    },
+    "Type": "Audio Box",
+    "IsAvailable": false,
+    "Key": 12,
+    "Tenants": [
+      3,
+     2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a21446b9f42ae60dad92",
+    "Name": "elit",
+    "Publisher": "esse",
+    "Price": "1,807.26",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Voluptate et irure fugiat aute laborum excepteur occaecat veniam. Elit irure ut culpa deserunt dolor nisi anim deserunt quis ad ex aliquip cupidatat. Culpa pariatur laborum Lorem aute consectetur anim ex non duis ad id commodo laborum et. Esse magna sint eiusmod nostrud qui in et veniam veniam ullamco in ex. Ut nostrud ullamco magna reprehenderit ex enim pariatur reprehenderit dolore veniam aliqua. Dolore ullamco consequat qui ex ullamco esse nisi tempor.\r\n",
+    "Location": {
+      "coordinates": [
+      16.48661957	,  49.10254393
+      ],
+       "Latitude": 49.32825464	,	 "Longitude ": 16.51683429
+    },
+    "Type": "Pamflet",
+    "IsAvailable": true,
+    "Key": 13,
+    "Tenants": [
+      3,
+     2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214faecaa9ff0c8c754",
+    "Name": "laboris",
+    "Publisher": "reprehenderit",
+    "Price": "3,760.65",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Cupidatat voluptate non irure dolore. Et consectetur laborum ad labore. Exercitation tempor officia proident enim. Sit ullamco adipisicing deserunt cillum incididunt proident exercitation reprehenderit proident.\r\n",
+    "Location": {
+      "coordinates": [
+      16.51683429, 49.32825464
+      ],
+     "Latitude": 49.37331112	,	 "Longitude ": 16.63157379	
+    },
+    "Type": "Audio Box",
+    "IsAvailable": true,
+    "Key": 14,
+    "Tenants": [
+      3,
+      2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214a5795bde7bea1907",
+    "Name": "dolor",
+    "Publisher": "do",
+    "Price": "2,589.00",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Excepteur est veniam ipsum proident exercitation fugiat consectetur quis mollit. Anim deserunt occaecat nostrud qui voluptate incididunt velit nisi deserunt id. Ad reprehenderit Lorem amet reprehenderit culpa est fugiat amet excepteur officia aliqua proident eiusmod minim.\r\n",
+    "Location": {
+      "coordinates": [
+    16.63157379	,  49.37331112
+      ],
+      "Latitude": 49.19681695	,	 "Longitude ": 16.69018546
+    },
+    "Type": "Kino",
+    "IsAvailable": false,
+    "Key": 15,
+    "Tenants": [
+      3,
+    1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a21466126f318a5de5c8",
+    "Name": "nostrud",
+    "Publisher": "fugiat",
+    "Price": "2,468.61",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Quis velit proident ipsum pariatur ex nulla aute culpa Lorem enim minim nisi consequat. Laborum fugiat qui anim dolor in. Minim laboris elit aliquip aliqua voluptate minim pariatur cillum occaecat anim. Excepteur do ut ut sint ipsum nostrud incididunt magna excepteur ullamco nisi incididunt. Qui tempor consequat Lorem dolor ea laboris aliquip ex. Duis occaecat aliquip non veniam cillum. In mollit nostrud incididunt nostrud ad aliquip proident occaecat enim commodo qui esse.\r\n",
+    "Location": {
+      "coordinates": [
+    16.69018546,  49.19681695
+      ],
+       "Latitude": 49.32598385	,	 "Longitude ": 16.51591505
+    },
+    "Type": "Pamflet",
+    "IsAvailable": true,
+    "Key": 16,
+    "Tenants": [
+      3,
+     1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214832b6179439e9c4c",
+    "Name": "commodo",
+    "Publisher": "quis",
+    "Price": "3,563.47",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Aute aute do nulla commodo consequat mollit amet laboris proident. Est in officia eiusmod magna magna occaecat velit proident laborum. Ea occaecat ea reprehenderit laborum mollit duis ullamco Lorem occaecat.\r\n",
+    "Location": {
+      "coordinates": [
+       16.51591505, 49.32598385
+      ],
+       "Latitude": 49.2240651	,	 "Longitude ": 16.70454172
+    },
+    "Type": "Audio Box",
+    "IsAvailable": true,
+    "Key": 17,
+    "Tenants": [
+      3,
+      1
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214c0d94d5f6ae64f09",
+    "Name": "amet",
+    "Publisher": "enim",
+    "Price": "1,588.03",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Commodo labore do mollit proident officia. Do ullamco aute esse nostrud laboris aute Lorem velit eiusmod magna et et sunt. Quis minim occaecat ex reprehenderit dolore. Qui eiusmod id tempor sit consequat Lorem veniam proident occaecat do.\r\n",
+    "Location": {
+      "coordinates": [
+      16.70454172, 49.2240651	
+      ],
+       "Latitude": 49.04127572	, 	 "Longitude ": 16.70274644
+    },
+    "Type": "Mobile Ad Car",
+    "IsAvailable": false,
+    "Key": 18,
+    "Tenants": [
+      3,
+      2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214c607dd28de90daf9",
+    "Name": "esse",
+    "Publisher": "nostrud",
+    "Price": "1,084.10",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Ex minim nisi eiusmod pariatur occaecat eu aliquip eiusmod ut excepteur id culpa. Lorem dolore ea deserunt adipisicing. Est ullamco proident irure excepteur minim veniam ut ex. Est nostrud sit sunt esse id anim veniam ex deserunt laborum est. Aliqua in tempor elit consequat ad officia ullamco esse laboris proident ea tempor adipisicing voluptate.\r\n",
+    "Location": {
+      "coordinates": [
+      16.70274644	, 49.04127572
+      ],
+     "Latitude": 49.04377171	,	 "Longitude ": 16.5329852	
+    },
+    "Type": "Pamflet",
+    "IsAvailable": false,
+    "Key": 19,
+    "Tenants": [
+      3,
+     2
+    ],
+    "@search.score": 5
+  },
+  {
+    "Id": "54c6a214126f6d9c08e58f0e",
+    "Name": "non",
+    "Publisher": "aute",
+    "Price": "2,085.48",
+    "Image": "http://fc09.deviantart.net/fs25/i/2008/149/6/3/pamflet_by_psycomedy.jpg",
+    "Description": "Culpa aute fugiat velit deserunt aliqua magna dolor exercitation mollit voluptate anim. Magna eiusmod enim occaecat proident consectetur aliqua nisi sit cillum ea. Magna id id nulla aliquip id culpa dolor commodo sit. Aliqua incididunt nulla exercitation occaecat in sit do nostrud. Consequat cupidatat reprehenderit sint sunt in aliquip consectetur eiusmod esse tempor esse magna.\r\n",
+    "Location": {
+      "coordinates": [
+      16.5329852, 49.04377171
+      ],
+       "Latitude": 49.25004612	,	 "Longitude ": 16.7374465	
+    },
+    "Type": "Kino",
+    "IsAvailable": false,
+    "Key": 20,
+    "Tenants": [
+      3,
+      2
+    ],
+    "@search.score": 5
+  }
+]

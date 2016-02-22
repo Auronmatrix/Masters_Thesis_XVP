@@ -1,0 +1,150 @@
+﻿<div class="tenantBackground" style="position: absolute; top: 150px; left: 72%; border-radius: 10px;   width: 500px; height: 70px; color: black; font-size: 18px; padding-top:15px">
+    <p style="text-align: center"><i class="fa fa-dashboard"></i> Campaign Info:<span data-bind="text: campaignName"></span> </p>
+
+    <div class="well text-primary" style="margin-bottom: 0px; z-index: -3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="campaignStartInput">Campaign Name: </label>
+                </div>
+                <div class="col-md-4">
+                    <input id="campaignStartInput" class="text" data-bind="value: campaignName" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="campaignStartInput">Campaign Start: </label>
+                </div>
+                <div class="col-md-4">
+                    <input id="campaignStartInput" class="datepicker" data-bind="datepicker: campaignStart, datepickerOptions: { minDate: new Date() }" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="campaignEnd">Campaign End: </label>
+                </div>
+                <div class="col-md-4">
+                    <input id="campaignEnd" class="datepicker" data-bind="datepicker: campaignEnd, datepickerOptions: { minDate: new Date() }" />
+                </div>
+            </div>
+            <hr/>
+            <h4>Search By</h4>
+            <div>
+                <label for="searchDistance">Distance</label>
+                <input type="range" min=1 max="30" value="10" id="searchDistance" />
+            </div>
+            <br/>
+            <div>
+                <label for="searchWord">Word</label>
+                <input type="text" id="searchWord" />
+            </div>
+        </div>
+    </div>
+    <div class="tenantBackground" style="border-radius: 0px 0px 10px 10px;  width: 500px; height: 70px; color: black; font-size: 18px;">
+    </div>
+    <div class="clearfix"></div>
+    </div>
+    
+<!---------------------------------------------------------------->
+
+<div class="tenantBackground" style="position: absolute; top: 630px; left: 72%; border-radius: 10px;   width: 500px; height: 70px; color: black; font-size: 18px; padding-top:15px">
+    <p style="text-align: center"><i class="fa fa-shopping-cart"></i> Media in Campaign: <strong><span data-bind="text: total"></span> EUR </strong> </p>
+   
+    <div class="well text-primary" style="margin-bottom: 0px; z-index: -3">
+        <table class="table" style="font-size: 20px">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: items">
+                <tr>
+                    <td><span data-bind="text: name"></span></td>
+                    <td><span data-bind="text:type"></span></td>
+                    <td><strong><span data-bind="text:price"></span></strong></td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-info"
+                           data-toggle="modal" data-bind="attr: { 'data-target' : '#Modal' + id() }">Info</a>
+
+
+                        <div class="modal fade" data-bind="attr: { id : 'Modal' + id() }" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                        <h2 class="text-info" id="myModalLabel" data-bind="text: 'Type: ' + type()">Info</h2>
+                                    </div>
+                                    <div class="modal-body text-info">
+                                        <h3 class="text-info" id="myModalLabel" data-bind="text: name()">Modal title</h3>
+                                        <div style="width: 50%; height: 50%">
+                                            <img data-bind="attr: { 'src' : image() }" width="100%" height="100%" />
+                                        </div>
+                                        <hr />
+                                        <h4>Description</h4>
+                                        <span data-bind="text: description"></span>
+                                        <h4>Publisher</h4>
+                                        <span data-bind="text: publisher"></span>
+                                        <h4>Price</h4>
+                                        <span data-bind="text: price">EURO</span>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal" data-bind='click: $parent.removeMediaItemJson'>Remove</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+
+                    <td><a href='#' class="btn btn-sm btn-danger" data-bind='click: $parent.removeMediaItemJson'>Remove</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="http://knockoutjs.com/downloads/knockout-3.2.0.js"></script>
+    <script src="~/Scripts/knockout.mapping-latest.js"></script>
+    <script type="text/javascript" src="/Scripts/model.js"></script>
+    <script type="text/javascript" src="/Scripts/app.js"></script>
+
+    <script>
+        $(function () {
+            app.marketHome.init();
+        });
+    </script>
+    <div class="tenantBackground" style="border-radius: 0px 0px 10px 10px;  width: 500px; height: 70px; color: black; font-size: 18px;">
+        <div style="margin-left:auto;margin-right:auto;margin-top:-3px; padding-top: 15px;  width: 50%;">
+            <a href='#' class="btn btn-danger" onclick="app.marketHome.getViewModel().save()">Save</a>
+            <a href='#' class="btn  btn-warning" onclick="app.marketHome.getViewModel().load()">Load</a>
+            <a href='#' class="btn  btn-success" onclick="app.marketHome.getViewModel().checkout()">Checkout</a>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="modal fade" id="ModalCommissioned" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Checkout Success</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    <i class="fa fa-thumbs-up" style="font-size: 80px"></i> 
+                </p>
+                <p>
+                    <h4> Your campaign has been submitted. Please check your registered email for any updates on it's status.</h4>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

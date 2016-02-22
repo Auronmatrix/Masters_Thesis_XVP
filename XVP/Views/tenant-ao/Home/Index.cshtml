@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!--
+    
+    http://p1.pichost.me/i/35/1583279.jpg
+    http://f.fwallpapers.com/images/power-lines-sunset.jpg
+    -->
+
+
+
+<div class="wide">
+   </div>
+<div class="jumbotron">
+    <div class="col-md-9 pull-left">
+        <h1>XV-Platform Prototype: Tenant AO</h1>
+        <p class="lead">A cloud based Multi-tenant Prototype built on Windows Azure and ASP.Net as part of my Masters thesis for Masaryk University 2014.</p>
+        <p>@Html.ActionLink("Take me to the Media Marketplace", "Index", "Market", null, new { @class = "btn btn-primary" })</p>
+    </div>
+    <div class="col-md-3 pull-right">
+        <img src="http://www.appsdevteam.com/img/details/emuni_2.png" class="jumbotronwidth" height="200" alt=" " />
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+<div class="clearfix"></div>
+<div class="row">
+    <div class="col-md-4 introbox">
+        <h2>About the Project</h2>
+        <p>
+            This project explores the very basics of implementing an architecture designed as a result of researchn into cloud based multi-tenant applications.
+        </p>
+        <p>@Html.ActionLink("Learn more...", "About", "Home", null, new { @class = "btn btn-default" })</p>
+    </div>
+    <div class="col-md-4 introbox">
+        <h2>Feature Testing</h2>
+        <p>
+            This is the feature testing sandbox. Have a look at the feature test controller to get an idea of what is currently under study.
+        </p>
+        <p>@Html.ActionLink("Take a sneak peek...", "Index", "FeatureTest", null, new { @class = "btn btn-default" })</p>
+    </div>
+    <div class="col-md-4 introbox">
+        <h2>Technologies used</h2>
+        <p>This is an under construction list of the technologies used and final implementation of the architecture based on the research results</p>
+        <p>@Html.ActionLink("See what this runs on...", "Tech", "Home", null, new { @class = "btn btn-default" })</p>
+    </div>
+</div>
